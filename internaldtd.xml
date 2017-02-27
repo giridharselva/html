@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE studentdetail [
+<!ELEMENT studentdetail (name,fathername,dob,nativity)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT fathername (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT nativity (#PCDATA)>
+]>
+<studentdetail>
+<name>giri</name>
+<fathername>K.Nachimuthu</fathername>
+<dob>10-05-94</dob>
+<nativity>erode</nativity>
+</studentdetail>

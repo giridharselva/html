@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/xsl" href="namespace.xsl"?>
+
+<root 
+xmlns:h="http://www.w3.org/TR/html4/"
+xmlns:f="http://www.w3schools.com/f">
+
+<h:t1>
+  <h:tr>
+    <h:td>Apples</h:td>
+    <h:td>Bananas</h:td>
+  </h:tr>
+</h:t1>
+
+<f:t1>
+  <f:name>African Coffee Table</f:name>
+  <f:width>80</f:width>
+  <f:length>120</f:length>
+</f:t1>
+
+</root>

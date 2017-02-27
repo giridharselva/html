@@ -1,0 +1,5 @@
+<!ELEMENT studentdetail (name,fathername,dob,nativity)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT fathername (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT nativity (#PCDATA)>

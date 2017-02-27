@@ -1,0 +1,46 @@
+<?xml-stylesheet type="text/xsl" href="choose.xsl"?>
+<catalog>
+  <cd>
+    <title>web technology</title>
+    <author>Bob Dylan</author>
+    <country>india</country>
+    <company>aditya</company>
+    <price>1000.90</price>
+    <edition>10</edition>
+  </cd>
+  
+  <cd>
+    <title>advaced computer architecture</title>
+    <author>keerthi</author>
+    <country>india</country>
+    <company>keerthi</company>
+<price>1500</price>
+    <edition>6</edition>
+  </cd>
+  <cd>
+    <title>data structure</title>
+    <author>senthil</author>
+    <country>india</country>
+    <company>senthilgandi</company>
+    <price>10</price>
+    <edition>0</edition>
+  </cd>
+<cd>
+    <title>mobile cokmputing</title>
+    <author> sangeetha</author>
+    <country>usa</country>
+    <company>sangeethavel</company>
+    <price>160000</price>
+    <edition>18</edition>
+  </cd>
+<cd>
+    <title>mobile </title>
+    <author> lokesh</author>
+    <country>usa</country>
+    <company>den</company>
+    <price>0</price>
+    <edition>9</edition>
+  </cd>
+</catalog>
+
+
