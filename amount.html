@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+    background-color: #8CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
+</head>
+<body><center>
+<strong><h2>Arithmetic opertion</strong></h2>
+<p> <strong></strong><h3> Conversion of amount</h3></p>
+
+
+<script>
+
+function mul()
+{
+var a=parseInt(window.f1.n1.value);
+var b=parseInt(window.f1.n2.value);
+window.f1.r.value= a*b;
+}
+function add()
+{
+var a=parseInt(window.f1.n1.value);
+var b=parseInt(window.f1.n2.value);
+window.f1.r.value= a+b;
+}
+
+function sub()
+{
+var a=parseInt(window.f1.n1.value);
+var b=parseInt(window.f1.n2.value);
+window.f1.r.value= a-b;
+}
+
+function div()
+{
+var a=parseInt(window.f1.n1.value);
+var b=parseInt(window.f1.n2.value);
+window.f1.r.value= a/b;
+}
+
+
+document.getElementById("po").innerHTML="MULTIPLICATION CALCULATOR";
+document.getElementById("po").innerHTML = 5 + 6;
+
+function dollar()
+{
+var a=parseInt(window.f1.n1.value);
+var b=parseInt(window.f1.n2.value);
+window.f1.r.value= a*70;
+}
+function euro()
+{
+var a=parseInt(window.f1.n1.value);
+var b=parseInt(window.f1.n2.value);
+window.f1.r.value= a*80;
+}function rupee()
+{
+var a=parseInt(window.f1.n1.value);
+var b=parseInt(window.f1.n2.value);
+window.f1.r.value= a*1;
+}function dirham()
+{
+var a=parseInt(window.f1.n1.value);
+var b=parseInt(window.f1.n2.value);
+window.f1.r.value= a*120;
+}
+
+
+
+</script>
+
+
+<form id="f1">
+val1<input type="text" name="n1"></input><br><br>
+
+val2<input type="text" name="n2"></input><br><br>
+
+result<input type="text" name="r"></input>
+</br></br>
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">arithmetic operation
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#"onclick=mul()> multiple</a>
+    <a href="#" onclick=div()>div</a>
+    <a href="#"onclick=sub()>sub</a>
+<a href= "#"onclick=add()>add</a>
+</div>
+</div>
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn"> Conversion Amount
+ <div id="myDropdown" class="dropdown-content">
+  <A HREF="#" onclick=dollar()>dollar</A>
+  <a href ="#" onclick=euro()>euro</a>
+  <a href=" #" onclick=rupee()>rupee</a>
+  <a href="#" onclick=dirham()>dirham</a>
+</div>
+</div>
+
+</form>
+
+</center>
+</script>
+
+</body>
+</html>
+
